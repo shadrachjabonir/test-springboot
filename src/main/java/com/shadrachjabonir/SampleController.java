@@ -24,6 +24,7 @@ public class SampleController extends SpringBootServletInitializer{
         t.setResponse("Hello World!");
         return t;
     }
+
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(SampleController.class);
